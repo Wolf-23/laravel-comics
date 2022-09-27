@@ -1,4 +1,4 @@
-@import './partials/genaral.scss';
+@import './partials/genaral';
 // Header
 
 header {
@@ -22,78 +22,6 @@ header {
                 color: #0282F9;
             }
         }    
-    }
-}
-
-// Footer
-
-.footer-top {
-    background-image: url(../../public/images/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
-    overflow: hidden;
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 100%;
-    }
-    .left {
-        display: flex;
-        .comics-shop, .dc, .sites {
-            padding: 0 20px;
-        }
-        h3 {
-            color: white;
-            padding: 7px 0;
-        }
-        ul {
-            list-style: none;
-            padding: 5px 0;
-            li {
-                padding: 2px 0;
-                a {
-                    text-decoration: none;
-                    color: gray;
-                    &:hover {
-                        color: #0282F9;
-                    }
-                }
-            }
-        }
-    }
-}
-.footer-bottom {
-background-color: #303030;
-height: 15vh;
-z-index: 555;
-    .container {
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        a {
-            border: 2px solid #0282F9;
-            padding: 10px;
-            text-decoration: none;
-            color: white;
-            &:hover {
-                border: 2px solid #fff;
-                color: #0282F9;
-            }
-        }
-        .follow {
-            display: flex;
-            align-items: center;
-            h3 {
-                padding: 0 15px;
-                color:#0282F9;
-            }
-            img {
-                padding: 0 10px;
-            }
-        }
     }
 }
 
@@ -161,5 +89,78 @@ z-index: 555;
         text-transform: uppercase;
         font-weight: 100;
         font-size: 11px;
+    }
+}
+
+
+// Footer
+
+.footer-top {
+    background-image: url(../../public/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    overflow: hidden;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+    .left {
+        display: flex;
+        .comics-shop, .dc, .sites {
+            padding: 0 20px;
+        }
+        h3 {
+            color: white;
+            padding: 7px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 5px 0;
+            li {
+                padding: 2px 0;
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    &:hover {
+                        color: #0282F9;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-bottom {
+    background-color: #303030;
+    height: 15vh;
+    z-index: 555;
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            border: 2px solid #0282F9;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            &:hover {
+                border: 2px solid #fff;
+                color: #0282F9;
+            }
+        }
+        .follow {
+            display: flex;
+            align-items: center;
+            h3 {
+                padding: 0 15px;
+                color:#0282F9;
+            }
+            img {
+                padding: 0 10px;
+            }
+        }
     }
 }
