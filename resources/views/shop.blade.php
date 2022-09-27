@@ -8,7 +8,7 @@
         <div class="container">
             <h2 class="cart">Aggiungi al carrello:</h2>
             <div class="products-list">
-                @foreach ($fumetti as $key => $fumetto)
+                @foreach ($fumetti as $fumetto)
                     <div class="single-product">
                         <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['title']}}">
                         <h4>{{$fumetto['title']}}</h4>
