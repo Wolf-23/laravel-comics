@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title-page', 'Shop')
+@section('title-page', 'HomePage')
 
 @section('main')
     <div class="jumbo"></div>

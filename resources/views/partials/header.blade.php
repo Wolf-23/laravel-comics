@@ -7,5 +7,6 @@
         <li><a href="#">MOVIES</a></li>
         <li><a href="#">TV</a></li>
         <li><a href="#">GAMES</a></li>
+        <li><a href="#">NEWS</a></li>
     </ul>
 </header>

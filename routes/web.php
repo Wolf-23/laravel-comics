@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/shop', function() {
     $fumetti = config('comics');
-    return view('homepage', [
+    return view('shop', [
         'fumetti' => $fumetti
     ]);
 })->name('shop');

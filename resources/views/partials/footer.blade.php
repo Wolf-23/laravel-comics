@@ -5,12 +5,12 @@
                 <div class="comics-shop">
                     <h3>DC COMICS</h3>
                     <ul>
-                        <li><a href="#">Characters</a></li>
+                        <li><a href="{{route('homepage')}}">HomePage</a></li>
+                        <li><a href="{{route('shop')}}">Shop</a></li>
                         <li><a href="#">Comics</a></li>
                         <li><a href="#">Movies</a></li>
                         <li><a href="#">TV</a></li>
                         <li><a href="#">Games</a></li>
-                        <li><a href="#">Videos</a></li>
                         <li><a href="#">News</a></li>
                     </ul>
                     <h3>SHOP</h3>
