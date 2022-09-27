@@ -52,8 +52,58 @@ header li a:hover {
   height: 700px;
 }
 
+.my-products .update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+}
+
 .my-products .container {
   height: 100%;
+}
+
+.my-products .container .singleComic {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.my-products .container .singleComic .singleComicImg {
+  display: inline-block;
+  transform: translateY(-50px);
+}
+
+.my-products .container .singleComic .singleComicTitle {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.my-products .container .singleComic .singleComicSeries {
+  color: #fff;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.my-products .container .singleComic .singleComicPrice {
+  color: #0282f9;
+  font-weight: bold;
+  margin-bottom: 25px;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15PX;
+  background-color: #bce4f0;
+}
+
+.my-products .container .singleComic .singleComicDesc {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.my-products .container .singleComic .singleComicSale {
+  color: #0282F9;
+  font-size: 20px;
 }
 
 .my-products .container .cart {

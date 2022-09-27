@@ -35,8 +35,50 @@ header {
 .my-products {
     background-color: #1C1C1C;
     height: 700px;
+    .update {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        height: 100%;
+    }
     .container {
         height: 100%;
+        .singleComic {
+            width: 80%;
+            margin: 0 auto;
+            .singleComicImg {
+                display: inline-block;
+                transform: translateY(-50px);
+            }
+            .singleComicTitle {
+                color: #fff;
+                margin-bottom: 10px;
+                font-size: 26px;
+            }
+            .singleComicSeries {
+                color: #fff;
+                margin-bottom: 25px;
+                text-transform: uppercase;
+            }
+            .singleComicPrice {
+                color: #0282f9;
+                font-weight: bold;
+                margin-bottom: 25px;
+                display: inline-block;
+                padding: 5px;
+                border-radius: 15PX;
+                background-color: #bce4f0;
+            }
+            .singleComicDesc {
+                color: #fff;
+                margin-bottom: 25px;
+            }
+            .singleComicSale {
+                color: #0282F9;
+                font-size: 20px;
+            }
+        }
         .cart {
             color: #0282F9;
             padding: 30px 0 20px 10px;

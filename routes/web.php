@@ -20,9 +20,23 @@ Route::get('/', function () {
     ]);
 })->name('homepage');
 
+Route::get('comics/{id}', function($id) {
+    $fumetti = config('comics');
+    $singoloFumetto = $fumetti[$id];
+    return view('comics', ['fumetto' => $singoloFumetto]);
+})->name('comics');
+
 Route::get('/shop', function() {
     $fumetti = config('comics');
     return view('shop', [
         'fumetti' => $fumetti
     ]);
 })->name('shop');
+
+Route::get('/tv', function(){
+    return view('tv');
+})->name('tv');
+
+Route::get('/movies', function(){
+    return view('movies');
+})->name('movies');

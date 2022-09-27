@@ -8,9 +8,11 @@
         <div class="container">
             <span class="series">CURRENT SERIES</span>
             <div class="products-list">
-                @foreach ($fumetti as $fumetto)
+                @foreach ($fumetti as $key => $fumetto)
                     <div class="single-product">
-                        <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['title']}}">
+                        <a href="{{route('comics', ['id' => $key])}}">
+                            <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['title']}}">
+                        </a>
                         <h5>{{$fumetto['title']}}</h5>
                     </div>
                 @endforeach
