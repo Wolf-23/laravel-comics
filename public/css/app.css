@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+header img {
+  height: 70%;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header li a.active,
+header li a:hover {
+  color: #0282F9;
+}
+
+.footer-top {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-top .left {
+  display: flex;
+}
+
+.footer-top .left .comics-shop,
+.footer-top .left .dc,
+.footer-top .left .sites {
+  padding: 0 20px;
+}
+
+.footer-top .left h3 {
+  color: white;
+  padding: 7px 0;
+}
+
+.footer-top .left ul {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.footer-top .left ul li {
+  padding: 2px 0;
+}
+
+.footer-top .left ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-top .left ul li a:hover {
+  color: #0282F9;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 15vh;
+  z-index: 555;
+}
+
+.footer-bottom .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .container a {
+  border: 2px solid #0282F9;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom .container a:hover {
+  border: 2px solid #fff;
+  color: #0282F9;
+}
+
+.footer-bottom .container .follow {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom .container .follow h3 {
+  padding: 0 15px;
+  color: #0282F9;
+}
+
+.footer-bottom .container .follow img {
+  padding: 0 10px;
+}
+
+.jumbo {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.my-products {
+  background-color: #1C1C1C;
+  height: 600px;
+}
+
+.my-products .container {
+  height: 100%;
+}
+
+.my-products .container .series {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #0282F9;
+  padding: 10px;
+  display: inline-block;
+  transform: translate(-20px, -20px);
+}
+
+.my-products .container .products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-products .container .products-list .single-product {
+  width: 16.6666666667%;
+  padding: 20px 10px;
+}
+
+.my-products .container .products-list .single-product:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.my-products .container .my-btn {
+  text-align: center;
+}
+
+.my-products .container .my-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: #0282F9;
+  padding: 8px 50px;
+}
+
+.my-products .container .my-btn a:hover {
+  color: #0282F9;
+  background-color: #fff;
+}
+
+.single-product img {
+  width: 170px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.single-product h5 {
+  margin: 10px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 11px;
+}
+
