@@ -26,7 +26,7 @@ header {
 }
 
 .jumbo  {
-    background-image: url(../../public/images/jumbotron.jpg);
+    background-image: url(/images/jumbotron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -148,7 +148,7 @@ header {
 // Footer
 
 .footer-top {
-    background-image: url(../../public/images/footer-bg.jpg);
+    background-image: url(/images/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
